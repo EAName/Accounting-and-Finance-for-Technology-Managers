@@ -12,10 +12,10 @@ Create business plans for technology firms, evaluating new ventures and justifyi
 Fundamentals of Accounting and Finance
 
 
-Principles of Accountings through projects
+Principles of Accounting through Projects
 
 
-Accounting to Balance Sheet
+Accounting Statements to Balance Sheets
 
 
 Time Value of Money
