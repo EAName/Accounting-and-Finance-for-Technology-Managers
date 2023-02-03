@@ -1,0 +1,392 @@
+[
+  {
+    "DATE": 20010131,
+    "S&P": "3.46%",
+    "HD": "5.50%",
+    "": "Excel Instructions:"
+  },
+  {
+    "DATE": 20010228,
+    "S&P": "-9.23%",
+    "HD": "-11.83%",
+    "": "There are four ways that you can calculate a Beta using Excel. The first"
+  },
+  {
+    "DATE": 20010330,
+    "S&P": "-6.42%",
+    "HD": "1.51%",
+    "": "is to use the \"=slope\" formula.  In this formula, the X variable series is the"
+  },
+  {
+    "DATE": 20010430,
+    "S&P": "7.68%",
+    "HD": "9.28%",
+    "": "return on the market and the Y variable series if the return on HD."
+  },
+  {
+    "DATE": 20010531,
+    "S&P": "0.51%",
+    "HD": "4.65%",
+    "": "This gives:"
+  },
+  {
+    "DATE": 20010629,
+    "S&P": "-2.50%",
+    "HD": "-5.48%",
+    "": 1.4438
+  },
+  {
+    "DATE": 20010731,
+    "S&P": "-1.08%",
+    "HD": "8.21%",
+    "": ""
+  },
+  {
+    "DATE": 20010831,
+    "S&P": "-6.41%",
+    "HD": "-8.70%",
+    "": "A second alternative is to calculate the Beta directly as the covariance"
+  },
+  {
+    "DATE": 20010928,
+    "S&P": "-8.17%",
+    "HD": "-16.50%",
+    "": "between the two return series, divided by the variance of market returns."
+  },
+  {
+    "DATE": 20011031,
+    "S&P": "1.81%",
+    "HD": "-0.37%",
+    "": "Using the summary statistics at the bottom of the page, this gives:"
+  },
+  {
+    "DATE": 20011130,
+    "S&P": "7.52%",
+    "HD": "22.16%",
+    "": 1.4438
+  },
+  {
+    "DATE": 20011231,
+    "S&P": "0.76%",
+    "HD": "9.35%",
+    "": ""
+  },
+  {
+    "DATE": 20020131,
+    "S&P": "-1.56%",
+    "HD": "-1.80%",
+    "": "A third method is to use the full regression procedure in Excel. Go to"
+  },
+  {
+    "DATE": 20020228,
+    "S&P": "-2.08%",
+    "HD": "-0.18%",
+    "": "Tools\" - \"Data Analysis\" - \"Regression\" and click OK. Again, enter the"
+  },
+  {
+    "DATE": 20020328,
+    "S&P": "3.67%",
+    "HD": "-2.68%",
+    "": "market return series as the X variable and the HD return series as the"
+  },
+  {
+    "DATE": 20020430,
+    "S&P": "-6.14%",
+    "HD": "-4.61%",
+    "": "Y variable.  When you click OK, you should get full regression output"
+  },
+  {
+    "DATE": 20020531,
+    "S&P": "-0.91%",
+    "HD": "-10.09%",
+    "": "similar to that shown in the worksheet labelled \"HD Regr Output\"."
+  },
+  {
+    "DATE": 20020628,
+    "S&P": "-7.25%",
+    "HD": "-11.78%",
+    "": ""
+  },
+  {
+    "DATE": 20020731,
+    "S&P": "-7.90%",
+    "HD": "-15.93%",
+    "": "Finally, you can create a regression Beta in Excel using the chart functions."
+  },
+  {
+    "DATE": 20020830,
+    "S&P": "0.49%",
+    "HD": "6.64%",
+    "": "Remember that Beta is just the slope in a regression where market returns"
+  },
+  {
+    "DATE": 20020930,
+    "S&P": "-11.00%",
+    "HD": "-20.59%",
+    "": "are on the X axis and security returns (HD returns) are on the Y axis."
+  },
+  {
+    "DATE": 20021031,
+    "S&P": "8.64%",
+    "HD": "10.65%",
+    "": "To create this type of graph, highlight the two columns of data, with market"
+  },
+  {
+    "DATE": 20021129,
+    "S&P": "5.71%",
+    "HD": "-8.59%",
+    "": "returns on the left.  After highlighting the return series, click on the chart"
+  },
+  {
+    "DATE": 20021231,
+    "S&P": "-6.03%",
+    "HD": "-8.79%",
+    "": "wizard icon (or choose \"Insert\" - \"Chart\"). Under chart types, select"
+  },
+  {
+    "DATE": 20030131,
+    "S&P": "-2.74%",
+    "HD": "-12.99%",
+    "": "X-Y scatterplot\" and click Next. Click Next twice more to get to step 4 of 4."
+  },
+  {
+    "DATE": 20030228,
+    "S&P": "-1.70%",
+    "HD": "12.20%",
+    "": "In step 4, select \"as new sheet\" and click finish.  When the new chart"
+  },
+  {
+    "DATE": 20030331,
+    "S&P": "0.84%",
+    "HD": "4.14%",
+    "": "comes up, select the \"Chart\" tab at the top of the page, and then select"
+  },
+  {
+    "DATE": 20030430,
+    "S&P": "8.10%",
+    "HD": "15.48%",
+    "": "Add Trendline\". Select the \"Options\" tab, and click the buttons for"
+  },
+  {
+    "DATE": 20030530,
+    "S&P": "5.09%",
+    "HD": "15.50%",
+    "": "display equation\" and \"display R square\", then click OK.  This should add"
+  },
+  {
+    "DATE": 20030630,
+    "S&P": "1.13%",
+    "HD": "2.12%",
+    "": "both a regression line and a regression equation to your chart.  The results"
+  },
+  {
+    "DATE": 20030731,
+    "S&P": "1.62%",
+    "HD": "-5.80%",
+    "": "should look similar to those shown in the worksheet labelled \"HD Chart\"."
+  },
+  {
+    "DATE": 20030829,
+    "S&P": "1.79%",
+    "HD": "3.08%",
+    "": ""
+  },
+  {
+    "DATE": 20030930,
+    "S&P": "-1.19%",
+    "HD": "-0.75%",
+    "": ""
+  },
+  {
+    "DATE": 20031031,
+    "S&P": "5.50%",
+    "HD": "16.39%",
+    "": ""
+  },
+  {
+    "DATE": 20031128,
+    "S&P": "0.71%",
+    "HD": "-0.84%",
+    "": ""
+  },
+  {
+    "DATE": 20031231,
+    "S&P": "5.08%",
+    "HD": "-3.26%",
+    "": ""
+  },
+  {
+    "DATE": 20040130,
+    "S&P": "1.73%",
+    "HD": "-0.06%",
+    "": ""
+  },
+  {
+    "DATE": 20040227,
+    "S&P": "1.22%",
+    "HD": "2.37%",
+    "": ""
+  },
+  {
+    "DATE": 20040331,
+    "S&P": "-1.64%",
+    "HD": "3.09%",
+    "": ""
+  },
+  {
+    "DATE": 20040430,
+    "S&P": "-1.68%",
+    "HD": "-5.81%",
+    "": ""
+  },
+  {
+    "DATE": 20040528,
+    "S&P": "1.21%",
+    "HD": "2.07%",
+    "": ""
+  },
+  {
+    "DATE": 20040630,
+    "S&P": "1.80%",
+    "HD": "-1.77%",
+    "": ""
+  },
+  {
+    "DATE": 20040730,
+    "S&P": "-3.43%",
+    "HD": "-4.21%",
+    "": ""
+  },
+  {
+    "DATE": 20040831,
+    "S&P": "0.23%",
+    "HD": "8.67%",
+    "": ""
+  },
+  {
+    "DATE": 20040930,
+    "S&P": "0.94%",
+    "HD": "7.22%",
+    "": ""
+  },
+  {
+    "DATE": 20041029,
+    "S&P": "1.40%",
+    "HD": "4.80%",
+    "": ""
+  },
+  {
+    "DATE": 20041130,
+    "S&P": "3.86%",
+    "HD": "1.84%",
+    "": ""
+  },
+  {
+    "DATE": 20041231,
+    "S&P": "3.25%",
+    "HD": "2.37%",
+    "": ""
+  },
+  {
+    "DATE": 20050131,
+    "S&P": "-2.53%",
+    "HD": "-3.46%",
+    "": ""
+  },
+  {
+    "DATE": 20050228,
+    "S&P": "1.89%",
+    "HD": "-3.01%",
+    "": ""
+  },
+  {
+    "DATE": 20050331,
+    "S&P": "-1.91%",
+    "HD": "-4.20%",
+    "": ""
+  },
+  {
+    "DATE": 20050429,
+    "S&P": "-2.01%",
+    "HD": "-7.51%",
+    "": ""
+  },
+  {
+    "DATE": 20050531,
+    "S&P": "3.00%",
+    "HD": "11.25%",
+    "": ""
+  },
+  {
+    "DATE": 20050630,
+    "S&P": "-0.01%",
+    "HD": "-0.89%",
+    "": ""
+  },
+  {
+    "DATE": 20050729,
+    "S&P": "3.60%",
+    "HD": "11.85%",
+    "": ""
+  },
+  {
+    "DATE": 20050831,
+    "S&P": "-1.12%",
+    "HD": "-7.10%",
+    "": ""
+  },
+  {
+    "DATE": 20050930,
+    "S&P": "0.70%",
+    "HD": "-5.41%",
+    "": ""
+  },
+  {
+    "DATE": 20051031,
+    "S&P": "-1.77%",
+    "HD": "7.60%",
+    "": ""
+  },
+  {
+    "DATE": 20051130,
+    "S&P": "3.52%",
+    "HD": "2.05%",
+    "": ""
+  },
+  {
+    "DATE": 20051230,
+    "S&P": "-0.10%",
+    "HD": "-3.11%",
+    "": ""
+  },
+  {
+    "DATE": "",
+    "S&P": "",
+    "HD": "",
+    "": ""
+  },
+  {
+    "DATE": "Std.Dev.",
+    "S&P": 0.0426,
+    "HD": 0.0861,
+    "": ""
+  },
+  {
+    "DATE": "Variance",
+    "S&P": 0.0018,
+    "HD": 0.0074,
+    "": ""
+  },
+  {
+    "DATE": "Covariance",
+    "S&P": 0.0026,
+    "HD": "",
+    "": ""
+  },
+  {
+    "DATE": "Correlation",
+    "S&P": 0.7151,
+    "HD": "",
+    "": ""
+  }
+]
