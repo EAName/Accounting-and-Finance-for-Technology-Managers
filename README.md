@@ -1,5 +1,7 @@
 # MSDS-474-Accounting-and-Finance-for-Technology-Managers
 Corporate finance, managerial accounting, creation of a business plan following Sequoia Capital
+
+
 Reviews corporate finance and managerial accounting with a focus on technology projects.
 Technology entrepreneurs and managers are responsible for the financial performance of companies, divisions, or projects.
 They need to assess corporate needs in terms of workflow, coordination with other organizations, satisfying multiple stakeholders, 
