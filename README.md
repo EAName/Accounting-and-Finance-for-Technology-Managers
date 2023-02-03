@@ -10,12 +10,30 @@ Conducting breakeven and return-on-investment analyses. Providing in-depth cover
 Create business plans for technology firms, evaluating new ventures and justifying capital investments.
 
 Fundamentals of Accounting and Finance
+
+
 Principles of Accountings through projects
+
+
 Accounting to Balance Sheet
+
+
 Time Value of Money
+
+
 Calculating Project Returns
+
+
 Inflation, Interest Rate, & Foreign Exchange
+
+
 Managerial Accounting
+
+
 Financial Planning and Working Capital Management
+
+
 Financial Markets and Capital
+
+
 Financial Ratios
