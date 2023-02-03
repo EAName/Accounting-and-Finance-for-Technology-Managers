@@ -1,0 +1,68 @@
+[
+  {
+    "Projects": 1,
+    "Project Size": 10000,
+    "Cloud Computing Cost": 1200,
+    "Cumulative Cloud Cost": 1200,
+    "": "",
+    "Projects__1": 1,
+    "Project Size__1": 10000,
+    "Hadoop Cluster Cost": 10000,
+    "Cumulative Cluster Cost": 10000
+  },
+  {
+    "Projects": 2,
+    "Project Size": 25000,
+    "Cloud Computing Cost": 800,
+    "Cumulative Cloud Cost": 2000,
+    "": "",
+    "Projects__1": 2,
+    "Project Size__1": 25000,
+    "Hadoop Cluster Cost": 0,
+    "Cumulative Cluster Cost": 10000
+  },
+  {
+    "Projects": 3,
+    "Project Size": 15000,
+    "Cloud Computing Cost": 2000,
+    "Cumulative Cloud Cost": 4000,
+    "": "",
+    "Projects__1": 3,
+    "Project Size__1": 15000,
+    "Hadoop Cluster Cost": 0,
+    "Cumulative Cluster Cost": 10000
+  },
+  {
+    "Projects": 4,
+    "Project Size": 18000,
+    "Cloud Computing Cost": 1700,
+    "Cumulative Cloud Cost": 5700,
+    "": "",
+    "Projects__1": 4,
+    "Project Size__1": 18000,
+    "Hadoop Cluster Cost": 0,
+    "Cumulative Cluster Cost": 10000
+  },
+  {
+    "Projects": 5,
+    "Project Size": 22000,
+    "Cloud Computing Cost": 2000,
+    "Cumulative Cloud Cost": 7700,
+    "": "",
+    "Projects__1": 5,
+    "Project Size__1": 22000,
+    "Hadoop Cluster Cost": 0,
+    "Cumulative Cluster Cost": 10000
+  },
+  {
+    "Projects": 6,
+    "Project Size": 12000,
+    "Cloud Computing Cost": 1500,
+    "Cumulative Cloud Cost": 9200,
+    "": "",
+    "Projects__1": 6,
+    "Project Size__1": 12000,
+    "Hadoop Cluster Cost": 0,
+    "Cumulative Cluster Cost": 10000
+  }
+]
