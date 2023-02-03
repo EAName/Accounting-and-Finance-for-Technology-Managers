@@ -1,4 +1,5 @@
-#Accounting and Finance for Technology Managers
+Accounting and Finance for Technology Managers
+
 Corporate finance, managerial accounting, creation of a business plan following Sequoia Capital
 
 
