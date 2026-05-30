@@ -1,40 +1,59 @@
-Accounting and Finance for Technology Managers
+# Accounting-and-Finance-for-Technology-Managers
 
-Corporate finance, managerial accounting, creation of a business plan following Sequoia Capital
+Graduate coursework in corporate finance and managerial accounting for technology leaders: capital budgeting, financial statement analysis, market risk metrics, and infrastructure cost tradeoffs, captured as structured spreadsheet exports.
 
+---
 
-Reviews corporate finance and managerial accounting with a focus on technology projects.
-Technology entrepreneurs and managers are responsible for the financial performance of companies, divisions, or projects.
-They need to assess corporate needs in terms of workflow, coordination with other organizations, satisfying multiple stakeholders, 
-and employing highly specialized knowledge professionals. Read financial statements and evaluate risks associated with technology projects.
-Conducting breakeven and return-on-investment analyses. Providing in-depth coverage of spreadsheet programming methods, setting the stage for subsequent financial modeling work.
-Create business plans for technology firms, evaluating new ventures and justifying capital investments.
+## 1. Title and Summary
 
-Fundamentals of Accounting and Finance
+**Accounting and Finance for Technology Managers**  
+Northwestern University M.S. in Data Science (Data Engineering specialization): financial decision support for technology projects through Excel-oriented modeling of project returns, income/cash-flow statements, capital-market betas, and cloud vs. on-premise cost comparisons.
 
+---
 
-Principles of Accounting through Projects
+## 2. Concepts and Methods
 
+- **Capital budgeting / project returns:** discounted cash flow schedules; NPV at year-end vs. year-start cashflows; IRR; side-by-side comparison of Project A vs. Project B at stated discount rates; Excel formula validation columns (`Calculating_Project_Returns.json`)
+- **Managerial accounting (technology infrastructure):** per-project sizing; cumulative cloud computing cost vs. fixed Hadoop cluster capital; breakeven-style comparison of elastic cloud spend against upfront cluster investment across a project portfolio (`Managerial_Accounting.json`)
+- **Financial statements and working capital:** income statement build (Sales, COGS, gross profit, SG&A, depreciation, operating/pretax/net income); statement of cash flows with operating (net income, depreciation, AR/AP/prepaid adjustments), investing, and financing sections; net change in cash (`Financial_Planning_and_Working_Capital_Management.json`)
+- **Financial markets and risk:** monthly S&P 500 vs. Home Depot (HD) return series; beta estimation methods documented inline (Excel `SLOPE`, covariance/variance ratio, regression); summary statistics for standard deviation, variance, covariance, and correlation (`Financial Markets and Capital.json`)
 
-Accounting Statements to Balance Sheets
+**Course syllabus topics not represented in committed artifacts:** Sequoia Capital-style business plan deliverable; standalone financial ratio workbook; dedicated time-value-of-money module; inflation, interest-rate, and foreign-exchange exercises [VERIFY whether those live outside this repository]
 
+**Artifact format:** four JSON files appear to be spreadsheet/tabular exports (wide columns, embedded Excel instruction text), not executable Python/R notebooks
 
-Time Value of Money
+**Out of scope for this repo:** Python programming foundations (see **Programming-with-Python**); inferential statistics (see **Statistics**); prescriptive optimization (see **Decision-Analytics**); production analytics engineering (see **Analytics-Applications-Engineering**).
 
+---
 
-Calculating Project Returns
+## 3. Stack
 
+| Layer | Tools |
+|-------|-------|
+| Primary modeling | Microsoft Excel (formulas referenced: NPV, IRR, SLOPE, regression beta) |
+| Repository format | JSON tabular exports |
+| Analysis domain | Corporate finance, managerial accounting, capital markets |
 
-Inflation, Interest Rate, & Foreign Exchange
+[VERIFY: original coursework may include additional Excel workbooks not exported to this repo]
 
+---
 
-Managerial Accounting
+## 4. Structure
 
+```
+Accounting-and-Finance-for-Technology-Managers/
+├── Calculating_Project_Returns.json
+├── Managerial_Accounting.json
+├── Financial_Planning_and_Working_Capital_Management.json
+├── Financial Markets and Capital.json
+└── README.md
+```
 
-Financial Planning and Working Capital Management
+- **Organization:** one JSON export per major course module; no code packages or notebooks
+- **Reusable modules:** none
+- **Engineering practice:** ROI/NPV/IRR justification for technology investments; translate P&L into cash-flow impacts; quantify systematic risk (beta) against a market benchmark; compare OpEx cloud path vs. CapEx cluster path for data platform workloads
 
+---
 
-Financial Markets and Capital
-
-
-Financial Ratios
+**Course context:** Northwestern University, M.S. in Data Science, Data Engineering specialization  
+**Repository:** https://github.com/EAName/Accounting-and-Finance-for-Technology-Managers
