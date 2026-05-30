@@ -18,7 +18,7 @@ Northwestern University M.S. in Data Science (Data Engineering specialization): 
 - **Financial statements and working capital:** income statement build (Sales, COGS, gross profit, SG&A, depreciation, operating/pretax/net income); statement of cash flows with operating (net income, depreciation, AR/AP/prepaid adjustments), investing, and financing sections; net change in cash (`Financial_Planning_and_Working_Capital_Management.json`)
 - **Financial markets and risk:** monthly S&P 500 vs. Home Depot (HD) return series; beta estimation methods documented inline (Excel `SLOPE`, covariance/variance ratio, regression); summary statistics for standard deviation, variance, covariance, and correlation (`Financial Markets and Capital.json`)
 
-**Course syllabus topics not represented in committed artifacts:** Sequoia Capital-style business plan deliverable; standalone financial ratio workbook; dedicated time-value-of-money module; inflation, interest-rate, and foreign-exchange exercises [VERIFY whether those live outside this repository]
+**Course syllabus topics not represented in committed artifacts:** Sequoia Capital-style business plan deliverable; standalone financial ratio workbook; dedicated time-value-of-money module; inflation, interest-rate, and foreign-exchange exercises
 
 **Artifact format:** four JSON files appear to be spreadsheet/tabular exports (wide columns, embedded Excel instruction text), not executable Python/R notebooks
 
@@ -33,8 +33,6 @@ Northwestern University M.S. in Data Science (Data Engineering specialization): 
 | Primary modeling | Microsoft Excel (formulas referenced: NPV, IRR, SLOPE, regression beta) |
 | Repository format | JSON tabular exports |
 | Analysis domain | Corporate finance, managerial accounting, capital markets |
-
-[VERIFY: original coursework may include additional Excel workbooks not exported to this repo]
 
 ---
 
