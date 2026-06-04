@@ -50,7 +50,7 @@ Northwestern University M.S. in Data Science, Data Engineering specialization: f
 
 ```
 Accounting-and-Finance-for-Technology-Managers/
-├── README.md          # Course topics and methods (this file)
+├── README.md          # overview
 └── .gitignore         # Excludes local coursework artifacts if ever added
 ```
 
