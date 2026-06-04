@@ -1,6 +1,6 @@
 # Accounting-and-Finance-for-Technology-Managers
 
-Graduate coursework (MSDS474) in corporate finance and managerial accounting for technology leaders: financial statement mechanics, capital budgeting, working capital, market risk, infrastructure cost tradeoffs, and a Sequoia Capital–style venture business plan capstone.
+Graduate coursework (MSDS474) in corporate finance and managerial accounting for technology leaders: financial statement mechanics, capital budgeting, working capital, market risk, infrastructure cost tradeoffs, and investor-ready venture financial planning.
 
 **This repository is a course portfolio index only.** Excel models, presentations, and assignment workbooks are retained locally and are not published here.
 
@@ -9,37 +9,28 @@ Graduate coursework (MSDS474) in corporate finance and managerial accounting for
 ## 1. Title and Summary
 
 **Accounting and Finance for Technology Managers (MSDS474)**  
-Northwestern University M.S. in Data Science, Data Engineering specialization (Fall 2022): financial decision support for technology managers through Excel-based modeling—journal entries through statements, NPV/IRR project evaluation, cloud vs. on-premise data platform economics, cash-flow and working-capital analysis, capital-market beta, financial ratios, and a culminating business plan for a technology venture (Parallel LLC) using the Sequoia Capital pitch template.
+Northwestern University M.S. in Data Science, Data Engineering specialization (Fall 2022): financial decision support for technology managers through Excel-based modeling—journal entries through statements, NPV/IRR project evaluation, cloud vs. on-premise data platform economics, cash-flow and working-capital analysis, capital-market beta, financial ratios, and a venture business plan for a technology company (Parallel LLC) structured for investor review using the Sequoia Capital pitch framework.
 
 ---
 
 ## 2. Concepts and Methods
 
-### Module progression (10-week arc)
+- **Principles of accounting:** double-entry journal mechanics; transaction-to-statement discipline
+- **Financial statements:** balance sheet and income statement construction from operating activity
+- **Time value of money and capital budgeting:** DCF schedules; NPV (year-end vs. year-start cashflows); IRR; project comparison at stated discount rates
+- **Macro and FX exposure:** inflation, interest rates, and exchange-rate sensitivity; foreign-market integration risk framing
+- **Managerial accounting for technology infrastructure:** per-project sizing; cumulative cloud OpEx vs. fixed Hadoop cluster CapEx; breakeven-style build-vs.-buy for data platform workloads
+- **Financial planning and working capital:** income statement build; operating, investing, and financing cash flows; AR, AP, and prepaid adjustments
+- **Financial markets and capital:** return-series analysis; beta estimation via `SLOPE`, covariance/variance, and regression; sector benchmark comparison (including large-cap technology)
+- **Financial ratios:** liquidity, leverage, profitability, and efficiency metrics for operating and investor review
 
-| Module | Topic | Skills and artifacts (local) |
-|--------|--------|------------------------------|
-| 1 | Course introduction | Program framing; NU presentation template |
-| 2 | Principles of accounting | Double-entry journal mechanics (`JOURNAL DOUBLE ENTRIES.xlsx`) |
-| 3 | Balance sheet and income statement | Build Parallel LLC statements from transactions |
-| 4 | Time value of money | DCF schedules; NPV (year-end vs. year-start cashflows); IRR validation |
-| 5 | Calculating project returns | Capital budgeting comparisons across projects at stated discount rates |
-| 6 | Interest rates, inflation, exchange rates | Macro/fx sensitivity; foreign-market integration risk memo |
-| 7 | Managerial accounting | Per-project sizing; cumulative cloud OpEx vs. fixed Hadoop cluster CapEx; breakeven-style infrastructure comparison |
-| 8 | Financial planning and working capital | Income statement; operating/investing/financing cash flows; AR/AP/prepaid adjustments |
-| 9 | Financial markets and capital | Monthly return series; beta via `SLOPE`, covariance/variance, and regression; Big Tech variant workbook |
-| 10 | Financial ratios | Ratio analysis presentation and interpretation |
+### Venture business plan (investor-facing)
 
-### Capstone: venture business plan
-
-- **Sequoia Capital template** applied to **Parallel LLC** (technology venture narrative)
-- Supporting materials: business plan document, pitch deck, NPV/IRR workbook, accounting sheets
-- Integrates capital budgeting, statement logic, and manager-facing financial storytelling from prior modules
-
-### Reference texts (course)
-
-- Introductory financial accounting (Dauderis & Annand open text)
-- Managerial accounting textbook (course PDF)
+- **Investment narrative** for a technology venture (Parallel LLC): problem, market, product, and go-to-market framed for VC diligence
+- **Financial model** tying operating assumptions to projected statements, cash needs, and returns
+- **Capital budgeting support:** NPV and IRR on venture-scale cashflows; scenario-ready project economics
+- **Pitch materials:** business plan document, investor deck, and supporting accounting schedules aligned to the Sequoia Capital business plan template
+- **Manager-to-investor translation:** connect P&L mechanics, working capital, and infrastructure cost choices to funding ask, runway, and return profile
 
 ---
 
@@ -48,7 +39,7 @@ Northwestern University M.S. in Data Science, Data Engineering specialization (F
 | Layer | Tools |
 |-------|-------|
 | Primary modeling | Microsoft Excel (NPV, IRR, `SLOPE`, regression beta, statement builds) |
-| Deliverables | `.xlsx` workbooks, NU-themed `.pptx` decks, capstone `.doc` / `.pdf` |
+| Deliverables | `.xlsx` workbooks, presentation decks, investor plan documents (local only) |
 | Repository | Markdown documentation only (no published workbooks) |
 | Analysis domain | Corporate finance, managerial accounting, capital markets, tech infrastructure economics |
 
@@ -60,7 +51,7 @@ Northwestern University M.S. in Data Science, Data Engineering specialization (F
 
 ```
 Accounting-and-Finance-for-Technology-Managers/
-├── README.md          # Course map and methods (this file)
+├── README.md          # Course topics and methods (this file)
 └── .gitignore         # Excludes local coursework artifacts if ever added
 ```
 
@@ -68,20 +59,17 @@ Accounting-and-Finance-for-Technology-Managers/
 
 ```
 MSDS474/                          # Fall 2022 course folder
-├── Module_1/ … Module_10/        # Weekly presentations and Excel templates
-├── Presentation/                 # Parallel LLC Sequoia-style business plan capstone
-├── DauderisAnnand-IntroFinAcct-2017C.pdf
-└── Managerial Accounting.pdf
+├── …                             # Weekly Excel templates and presentations
+└── Presentation/                 # Parallel LLC venture business plan and investor materials
 ```
 
-- **Organization:** weekly modules align with lecture sequence; capstone lives under `Presentation/`
-- **Engineering practice for tech managers:** justify platform investments with NPV/IRR; translate P&L into cash-flow impacts; quantify systematic risk (beta); compare elastic cloud spend vs. upfront cluster CapEx; communicate finance to non-finance stakeholders via investor-style narrative
+- **Engineering practice for tech managers:** justify platform investments with NPV/IRR; translate P&L into cash-flow impacts; quantify systematic risk (beta); compare elastic cloud spend vs. upfront cluster CapEx; present finance in terms investors use—runway, use of funds, unit economics, and return potential
 
 ---
 
 ## Privacy and artifacts
 
-Course spreadsheets may contain assignment templates, firm-specific capstone figures, and instructional exports. They are intentionally excluded from this public repository. To request a redacted sample or discuss methodology, use GitHub Issues on this repo.
+Course spreadsheets may contain assignment templates, venture financial figures, and instructional exports. They are intentionally excluded from this public repository. To request a redacted sample or discuss methodology, use GitHub Issues on this repo.
 
 ---
 
