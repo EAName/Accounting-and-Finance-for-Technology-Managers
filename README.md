@@ -1,6 +1,6 @@
 # Accounting-and-Finance-for-Technology-Managers
 
-Graduate coursework in corporate finance and managerial accounting for technology leaders: financial statement mechanics, capital budgeting, working capital, market risk, infrastructure cost tradeoffs, and investor-ready venture financial planning.
+Graduate coursework in corporate finance and managerial accounting for technology leaders, implemented as advanced Excel analytics and financial simulation: linked statement models, capital budgeting, working capital, market risk, infrastructure cost tradeoffs, and investor-ready venture financial planning.
 
 **This repository is a course portfolio index only.** Excel models, presentations, and assignment workbooks are retained locally and are not published here.
 
@@ -9,15 +9,16 @@ Graduate coursework in corporate finance and managerial accounting for technolog
 ## 1. Title and Summary
 
 **Accounting and Finance for Technology Managers**  
-Northwestern University M.S. in Data Science, Data Engineering specialization: financial decision support for technology managers through Excel-based modeling—journal entries through statements, NPV/IRR project evaluation, cloud vs. on-premise data platform economics, cash-flow and working-capital analysis, capital-market beta, financial ratios, and a venture business plan for a technology company (Parallel LLC) structured for investor review using the Sequoia Capital pitch framework.
+Northwestern University M.S. in Data Science, Data Engineering specialization: financial decision support for technology managers through advanced Excel analytics and simulation—journal entries through linked statements, DCF/NPV/IRR and scenario analysis, cloud vs. on-premise data platform economics, cash-flow and working-capital modeling, capital-market beta, financial ratios, and a venture business plan for a technology company (Parallel LLC) structured for investor review using the Sequoia Capital pitch framework.
 
 ---
 
 ## 2. Concepts and Methods
 
+- **Excel analytics and simulation:** linked workbook models; formula-driven statement and cash-flow builds; DCF engines with year-end vs. year-start conventions; scenario and sensitivity analysis on project and venture economics
 - **Principles of accounting:** double-entry journal mechanics; transaction-to-statement discipline
 - **Financial statements:** balance sheet and income statement construction from operating activity
-- **Time value of money and capital budgeting:** DCF schedules; NPV (year-end vs. year-start cashflows); IRR; project comparison at stated discount rates
+- **Time value of money and capital budgeting:** DCF schedules; NPV and IRR; project comparison at stated discount rates
 - **Macro and FX exposure:** inflation, interest rates, and exchange-rate sensitivity; foreign-market integration risk framing
 - **Managerial accounting for technology infrastructure:** per-project sizing; cumulative cloud OpEx vs. fixed Hadoop cluster CapEx; breakeven-style build-vs.-buy for data platform workloads
 - **Financial planning and working capital:** income statement build; operating, investing, and financing cash flows; AR, AP, and prepaid adjustments
@@ -38,7 +39,7 @@ Northwestern University M.S. in Data Science, Data Engineering specialization: f
 
 | Layer | Tools |
 |-------|-------|
-| Primary modeling | Microsoft Excel (NPV, IRR, `SLOPE`, regression beta, statement builds) |
+| Primary modeling | Microsoft Excel — linked models, DCF/NPV/IRR simulation, scenario and sensitivity analysis, `SLOPE`/regression beta, statement and cash-flow analytics |
 | Deliverables | `.xlsx` workbooks, presentation decks, investor plan documents (local only) |
 | Repository | Markdown documentation only (no published workbooks) |
 | Analysis domain | Corporate finance, managerial accounting, capital markets, tech infrastructure economics |
