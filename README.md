@@ -1,6 +1,6 @@
 # Accounting-and-Finance-for-Technology-Managers
 
-Graduate coursework (MSDS474) in corporate finance and managerial accounting for technology leaders: financial statement mechanics, capital budgeting, working capital, market risk, infrastructure cost tradeoffs, and investor-ready venture financial planning.
+Graduate coursework in corporate finance and managerial accounting for technology leaders: financial statement mechanics, capital budgeting, working capital, market risk, infrastructure cost tradeoffs, and investor-ready venture financial planning.
 
 **This repository is a course portfolio index only.** Excel models, presentations, and assignment workbooks are retained locally and are not published here.
 
@@ -8,8 +8,8 @@ Graduate coursework (MSDS474) in corporate finance and managerial accounting for
 
 ## 1. Title and Summary
 
-**Accounting and Finance for Technology Managers (MSDS474)**  
-Northwestern University M.S. in Data Science, Data Engineering specialization (Fall 2022): financial decision support for technology managers through Excel-based modeling—journal entries through statements, NPV/IRR project evaluation, cloud vs. on-premise data platform economics, cash-flow and working-capital analysis, capital-market beta, financial ratios, and a venture business plan for a technology company (Parallel LLC) structured for investor review using the Sequoia Capital pitch framework.
+**Accounting and Finance for Technology Managers**  
+Northwestern University M.S. in Data Science, Data Engineering specialization: financial decision support for technology managers through Excel-based modeling—journal entries through statements, NPV/IRR project evaluation, cloud vs. on-premise data platform economics, cash-flow and working-capital analysis, capital-market beta, financial ratios, and a venture business plan for a technology company (Parallel LLC) structured for investor review using the Sequoia Capital pitch framework.
 
 ---
 
@@ -47,33 +47,15 @@ Northwestern University M.S. in Data Science, Data Engineering specialization (F
 
 ## 4. Structure
 
-### Published on GitHub
-
 ```
 Accounting-and-Finance-for-Technology-Managers/
 ├── README.md          # Course topics and methods (this file)
 └── .gitignore         # Excludes local coursework artifacts if ever added
 ```
 
-### Retained locally (not in this repo)
-
-```
-MSDS474/                          # Fall 2022 course folder
-├── …                             # Weekly Excel templates and presentations
-└── Presentation/                 # Parallel LLC venture business plan and investor materials
-```
-
 - **Engineering practice for tech managers:** justify platform investments with NPV/IRR; translate P&L into cash-flow impacts; quantify systematic risk (beta); compare elastic cloud spend vs. upfront cluster CapEx; present finance in terms investors use—runway, use of funds, unit economics, and return potential
 
 ---
 
-## Privacy and artifacts
-
-Course spreadsheets may contain assignment templates, venture financial figures, and instructional exports. They are intentionally excluded from this public repository. To request a redacted sample or discuss methodology, use GitHub Issues on this repo.
-
----
-
-**Course:** MSDS474 — Accounting and Finance for Technology Managers  
-**Term:** Fall 2022  
-**Program:** Northwestern University, M.S. in Data Science, Data Engineering specialization  
+**Course context:** Northwestern University, M.S. in Data Science, Data Engineering specialization  
 **Repository:** https://github.com/EAName/Accounting-and-Finance-for-Technology-Managers
