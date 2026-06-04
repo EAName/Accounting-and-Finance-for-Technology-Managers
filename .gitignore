@@ -1,0 +1,11 @@
+# Course artifacts stay local — do not commit workbooks, exports, or capstone files
+*.xlsx
+*.xls
+*.csv
+*.json
+*.pptx
+*.ppt
+*.doc
+*.docx
+*.pdf
+.DS_Store
