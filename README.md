@@ -13,7 +13,25 @@ Northwestern University M.S. in Data Science, Data Engineering specialization: f
 
 ---
 
-## 2. Concepts and Methods
+## 2. Featured Project: Strategic Capital Planning for a Data Engineering Start-up
+
+A full investor-facing business plan for a start-up (Parallel LLC) that designs, builds, tests, and operates data processing architectures for big data workloads, a market projected to reach $144.12 billion by 2026 ([Reports and Data, 2020](https://reportsanddata.com/press-release/global-big-data-and-data-engineering-services-market)). The plan is structured for venture capital review using the Sequoia Capital business plan template.
+
+**What I built**
+
+- Four years of books (2022 to 2025): journal entries, T-accounts, and trial balances rolling into linked financial statements
+- NPV analysis of two competing multi-year projects, with implementation strategies and a data-driven justification for the project selected
+- A capital planning and cost of capital framework to govern future investment decisions
+- An international division plan for global market expansion, including exchange-rate, inflation, and interest-rate exposure
+- Accounts receivable and payable workflows to manage working capital
+- Key financial ratios from the projected balance sheets and income statements, framed for investor evaluation
+- Investor materials (business plan, pitch deck, supporting schedules) that connect P&L mechanics, working capital, and infrastructure cost choices to the funding ask, runway, and return profile
+
+**Skills:** Financial modeling · Capital budgeting (NPV) · Cost of capital · Working capital management · International expansion planning · Investor communication
+
+---
+
+## 3. Concepts and Methods
 
 - **Excel analytics and simulation:** linked workbook models; formula-driven statement and cash-flow builds; DCF engines with year-end vs. year-start conventions; scenario and sensitivity analysis on project and venture economics
 - **Principles of accounting:** double-entry journal mechanics; transaction-to-statement discipline
@@ -25,17 +43,9 @@ Northwestern University M.S. in Data Science, Data Engineering specialization: f
 - **Financial markets and capital:** return-series analysis; beta estimation via `SLOPE`, covariance/variance, and regression; sector benchmark comparison (including large-cap technology)
 - **Financial ratios:** liquidity, leverage, profitability, and efficiency metrics for operating and investor review
 
-### Venture business plan (investor-facing)
-
-- **Investment narrative** for a technology venture (Parallel LLC): problem, market, product, and go-to-market framed for VC diligence
-- **Financial model** tying operating assumptions to projected statements, cash needs, and returns
-- **Capital budgeting support:** NPV and IRR on venture-scale cashflows; scenario-ready project economics
-- **Pitch materials:** business plan document, investor deck, and supporting accounting schedules aligned to the Sequoia Capital business plan template
-- **Manager-to-investor translation:** connect P&L mechanics, working capital, and infrastructure cost choices to funding ask, runway, and return profile
-
 ---
 
-## 3. Stack
+## 4. Stack
 
 | Layer | Tools |
 |-------|-------|
@@ -46,7 +56,7 @@ Northwestern University M.S. in Data Science, Data Engineering specialization: f
 
 ---
 
-## 4. Structure
+## 5. Structure
 
 ```
 Accounting-and-Finance-for-Technology-Managers/
